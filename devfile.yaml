@@ -1,6 +1,6 @@
 schemaVersion: 2.2.0
 metadata:
-  name: nodejs-mongodb
+  name: fsa-members-only-project
   namespace: danielgallardo21-dev
 attributes:
   controller.devfile.io/devworkspace-config:
@@ -30,7 +30,7 @@ components:
         - name: SECRET
           value: 220fd770-c028-480d-8f95-f84353c7d55a 
         - name: NODE_ENV
-          value: production
+          value: development
       endpoints:
         - exposure: public
           name: nodejs
