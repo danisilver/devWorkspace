@@ -12,15 +12,15 @@ projects:
   - name: front-end
     git:
       remotes:
-        origin: "https://github.com/danisilver/devWorkspace/tree/fsa-members-only"
+        origin: "https://github.com/danisilver/devWorkspace"
       checkoutFrom:
-        revision: main
+        revision: fsa-members-only
   - name: back-end
     git:
       remotes:
-        origin: "https://github.com/danisilver/devWorkspace/tree/fsa-members-only-server"
+        origin: "https://github.com/danisilver/devWorkspace"
       checkoutFrom:
-        revision: main
+        revision: fsa-members-only-server
 components:
   - name: nodejs
     container:
